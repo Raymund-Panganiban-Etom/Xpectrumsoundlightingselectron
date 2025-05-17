@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*{
+    margin: 0;
+}
+/* bg father start */
+body{
+    height: 2500px;
+    width: 5000px;
+    background-color:gray;
+}
+/* father bg end */
+/* mother start */
+.mother{
+    width: 3000px;
+    height: 2000px;
+    background: white;
+ margin-left: 1150px;
+ margin-top: 300px;
+ border-radius: 100px;
+}
+/* mother end */
+/* text start */
+.t1{
+    font-size: 100px;
+    font-family: "Open Sans";
+    padding-top: 400px;
+    padding-left: 600px;
+}
+/* text end */
+/* textfield start */
+.fi1{
+    height: 200px;
+    width: 1000px;
+    border: 10px solid black;
+
+    font-size: 50px;
+    font-family: "Open Sans";
+}
+
+/* buttons */
+.back{
+    height: 200px;
+    width: 500px;
+font-size: 70px;
+font-family: "Open Sans";
+border-radius: 50px;
+margin-top: 300px;
+margin-left: 730px;
+border: 10px solid gray;
+}
+.back:hover{
+      background: gray;
+  animation: ease-in-out;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+
+}
+.pro{
+    margin-left: 500px;
+    height: 200px;
+    width: 500px;
+font-size: 70px;
+font-family: "Open Sans";
+border-radius: 50px;
+border: 10px solid gray;
+}
+.pro:hover{
+      background: gray;
+  animation: ease-in-out;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+
+}

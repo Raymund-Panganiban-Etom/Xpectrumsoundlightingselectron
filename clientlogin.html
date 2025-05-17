@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="clientlogin.css" />
+    <title>Xpectrum</title>
+  </head>
+     <!--pioneer Frame start -->
+  <body>
+    <!-- !!!!!!!!!!!!!!!!!!! -->
+    <script src="renderlog.js"></script>
+<!-- !!!!!!!!!!!!!!!!! -->
+     <!-- Gif speaker -->
+      <!-- Gray Frame -->
+    <div class="fatherf">
+      <bold class="textf">Sound System and Lightings Services</bold>
+      <img
+        src="picandvid/speaker_36dp_FFFFFF_FILL0_wght400_GRAD0_opsz40.png"
+        class="logo"
+      /> </br>
+      <!-- Gray Frame end -->
+    <!-- frame white -->
+      <div class="childf">
+        <div class="lotext">
+         <h1 class="ftext">   Xpectrum Lights & Sound </h1>
+    
+         
+        </div>
+        <h1 class="mtext"> Log In </h1></br>
+
+<!-- emailpasslog  -->
+      <div class="input-mailpaslog">
+        <div class="mailpaslog">
+             <label for="mail" class="logemail">Email</label></br>
+             <input type="text" id="mail" class="input-field3">
+             <!-- </div> -->
+<!-- </div> -->
+           <label for="pass" class="logp">Password</label></br>
+            <input type="password" id="pass1" class="input-field3">
+        <img src="picandvid/eyeclose.png" alt="" class="eyeclo" id="openeye">
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+        <script>
+          const openeye = document.getElementById("openeye");
+          const pass1 = document.getElementById("pass1");
+          
+          openeye.onclick = function() {
+            if (pass1.type === "password") {
+              pass1.type = "text";
+              openeye.src = "picandvid/openeye.png";  // Ensure the path is correct
+              openeye.alt = "Hide Password";  // Update alt text
+            } else {
+              pass1.type = "password";
+              openeye.src = "picandvid/eyeclose.png";  // Ensure the path is correct
+              openeye.alt = "Show Password";  // Update alt text
+            }
+          };
+          </script>
+        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+           <button class="btnlog">Log in</button>
+         
+          <p class="dontac">Don't have an account?<a href="clientregister.html" class="linkreg">Register</a></p>
+        </div>
+      </div>
+      <!-- Frame white end -->
+
+    </div>
+  </body>
+</html>

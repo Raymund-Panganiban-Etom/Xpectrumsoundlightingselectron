@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+}
+/* Pioneer Frame */
+body {
+  background-image: linear-gradient(darkgray, black),
+    url(https://images.pexels.com/photos/6190821/pexels-photo-6190821.png?auto=compress&cs=tinysrgb&w=400);
+  background-size: cover;
+  height: 100vh;
+  width: 10vw;
+  background-repeat: no-repeat;
+}
+/* frame start */
+/* Frame gray */
+.fatherf {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.568),
+      rgba(128, 128, 128, 0.627)
+    ),
+    /* gif speaker */
+      url(https://i.pinimg.com/originals/a1/53/93/a15393af44be7d8d4ed81c9ced1fea7c.gif);
+  background-size: 3200px;
+  background-repeat: no-repeat;
+  height: 2500px;
+  width: 5000px;
+  margin-left: 520px;
+  margin-top: 290px;
+  display: flex;
+  justify-content: flex-end; /* Align the child on the left side */
+  align-items: center; /* Center the child vertically */
+  border-radius: 5%;
+}
+.logo {
+  position: relative;
+  top: -1000px;
+  left: -1485px;
+  height: 250px;
+}
+/* Frame gray end */
+/* White Frame start */
+.textf {
+  font-size: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: -600px;
+  left: 300px;
+  color: white;
+}
+
+.childf {
+  background-color: white;
+  height: 2500px;
+  width: 3333.4px;
+  border-radius: 5%;
+}
+
+.lotext {
+  display: flex;
+  justify-content: center;
+}
+
+.ftext {
+  font-size: 120px;
+  line-height: 500px;
+  display: inline;
+  font-family: "Open Sans";
+  margin-left: 100px;/*!!!!!!!!!!!!!!!!!!*/
+}
+
+.mtext {
+  font-size: 120px;
+
+  display: flex;
+  line-height: 30px;/*!!!!!!!!!!!!!!!!!!*/
+  justify-content: flex-end;
+  margin-right: 1400px;/*!!!!!!!!!!!!!!!!!!*/
+  margin-bottom: 200px;
+  font-family: "Open Sans";
+}
+/* start input info */
+
+/* input emailpasswordlog start */
+.input-mailpaslog {
+  display: flex; /* Align the name-group divs side by side */
+  justify-content: center; /* Center the items horizontally */
+  gap: 4px; /* Space between the name groups */
+}
+
+.mailpaslog {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: flex-start; /* Align items to the left */
+}
+
+.logemail {
+  /* font-size: 50px; */
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+  /* Remove any default margin */
+  margin: 40px; /* Add space between the label and input */
+  font-family: "Open Sans";
+  margin-left: 100px;
+}
+
+.logp {
+  /* font-size: 50px; */
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+  margin: 40px;
+  margin-left: 100px;
+
+  font-family: "Open Sans";
+}
+
+.input-field3 {
+  width: 1900px; /* Set a fixed width for input fields */
+  margin-left: 100px;
+
+  padding-left: 70px;
+  padding-right: 150px;
+  font-size: 70px;
+  height: 150px;
+  border: 10px solid gray;
+  border-radius: 70px;
+  font-family: "Open Sans";
+}
+
+.eyeclo {
+  margin-left: 2070px;
+  margin-top: -130px;
+  cursor: pointer;
+}
+
+.dontac,
+.linkreg {
+  font-size: 70px;
+  font-family: "Open Sans";
+  font-weight: 100;
+  margin-left: 20px;
+}
+.linkreg {
+  text-decoration: none;
+  color: black;
+}
+
+.btnlog {
+  border: 15px solid gray;
+  color: gray;
+  height: 200px;
+  width: 2150px;
+  font-size: 100px;
+  border-radius: 100px;
+  margin: 100px;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+.btnlog:hover {
+  background: gray;
+  animation: ease-in-out;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}

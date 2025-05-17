@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*{
+    margin: 0;
+}
+/* bg father start */
+body{
+    height: 2500px;
+    width: 5000px;
+    background-color: gray;
+}
+/* father bg end */
+/* user dash start */
+.f{
+ 
+    font-size: 100px;
+    padding-left: 500px;
+    padding-top: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+   
+   
+      
+}
+/* User dash end */
+/* Welcome start */
+.m{
+    font-size: 100px;
+    padding-left: 200px;
+    padding-top: 100px;
+    height: 200px;
+    width: 4000px;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 600px;
+        margin-right: 200px;
+        margin-top: 200px;
+        background-color: white;
+        border-top-right-radius: 20px;
+        font-family: "Open Sans";
+        border-top-left-radius: 50px;
+                border-top-right-radius: 50px;
+        margin-bottom: 10px;
+}
+/* welcome end */
+/* status start */
+.s{
+    font-size: 100px;
+    font-family: "Open Sans";
+    height: 1700px;
+    width: 4200px;
+    margin-top: 0px;
+    margin-left: 600px;
+        margin-right: 200px;
+        margin-bottom: 200px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+        border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+}
+.s .s1{
+padding-left: 1100px;
+padding-top: 250px;
+font-weight: lighter;
+}
+.s .s2{
+    padding-left: 1100px;
+    padding-top: 100px;
+    font-weight: lighter;
+    }
+    .s .s3{
+        padding-left: 1100px;
+        font-weight:lighter;
+        padding-top: 100px;
+        padding-bottom: 200px;
+        }
+
+        .s .c1{
+            padding-left: 500px;
+            }
+            .s .c2{
+                padding-left: 465px;
+                }
+                .s .c3{
+                    padding-left: 550px;
+                    }
+.b1{
+    padding: 30px;
+    font-size: 50px;
+    font-family: "Open Sans";
+    border-radius: 50px;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 100px;
+
+}
+.b2{
+    padding: 30px;
+    margin: 35px ;
+    font-size: 50px;
+    font-family: "Open Sans";
+    border-radius: 50px;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 100px;
+
+} 
+.b3{
+    padding: 30px;
+    margin-left: -60px;
+    font-size: 50px;
+    font-family: "Open Sans";
+    border-radius: 50px;
+    width: 300px;
+    cursor: pointer;
+margin-left: 100px;
+}
+.btn-back{
+    padding: 30px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: "Open Sans";
+    border-radius: 50px;
+    width: 500px;
+    cursor: pointer;
+    background-color:white;
+    font-weight: lighter;
+          border: 10px solid gray;
+
+
+}
+.btn-back:hover {
+  background: gray;
+  animation: ease-in-out;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.btn-back1{
+    padding: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: "Open Sans";
+    border-radius: 50px;
+    width: 1500px;
+    cursor: pointer;
+    background-color: white;
+        border: 10px solid gray;
+font-weight: lighter;
+}
+
+.btn-back1:hover {
+  background: gray;
+  animation: ease-in-out;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-back2{
+    padding: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: "Open Sans";
+    border-radius: 50px;
+    width: 500px;
+    cursor: pointer;
+    background-color: white;
+    border: 10px solid gray;
+    font-weight: lighter;
+}
+.btn-back2:hover {
+  background: gray;
+  animation: ease-in-out;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+                    /* status end */

@@ -1,0 +1,88 @@
+/* Hidden by default */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dim background */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Box content */
+.popup-content {
+  background: white;
+  font-size: 100px;
+  padding: 20px;
+  border-radius: 120px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  width: 4000px;
+  height: 2300px;
+  text-align: center;
+  animation: popIn 0.3s ease;
+}
+
+/* qr size */
+.qrp{
+  height: 1500px;
+  width: 1500px;
+  margin-left: -2000px;
+  font-size: 50px;
+  margin-top: -100px;
+}
+.p{
+  margin-top: -100px;
+  margin-left: -1970px;
+}
+.pi{
+  height: 1300px;
+  width: 700px;
+  margin-right: -800px;
+  margin-left: 100px;
+}
+.p1{
+  margin-left: 400px;
+  font-size: 50px;
+  margin-top: -100px;
+}
+.ph{
+  margin-left: 1000px;
+  font-size: 70px;
+}
+.photo{
+  height: 100px;
+  width: 200px;
+}
+/* image upload */
+
+.photo{
+  height: 100px;
+  width: 1000px;
+  margin-right: -1500px;
+  border: 20px solid black;
+  font-size: 100px;
+}
+
+/* Close button */
+#closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Animation */
+@keyframes popIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

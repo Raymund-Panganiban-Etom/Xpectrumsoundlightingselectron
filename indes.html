@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="indes.css">
+  <link rel="stylesheet" href="indes.js">
+    <title>Document</title>
+</head>
+<body>
+    <button id="openBtn">Open Popup</button>
+
+<div id="popupBox" class="popup">
+  <div class="popup-content">
+    <span id="closeBtn">&times;</span>
+    <h2> Downpayment</h2>
+    <p>G Cash</p>
+    <div class="con">
+  <img class="qrp" src="picandvid/qr code.png" alt=""><span ><img  class="pi" src="picandvid/exg.png" alt="">
+  <p class="p" >Scan Me</p><span><p class="p1">Example screenshot as proof</p></span></span><label class="ph" for="proof">Upload Proof<input class="photo" type="image"></label></span>
+</div>
+  </div>
+</div>
+
+<script>
+  const openBtn = document.getElementById("openBtn");
+  const closeBtn = document.getElementById("closeBtn");
+  const popupBox = document.getElementById("popupBox");
+
+  openBtn.addEventListener("click", () => {
+    popupBox.style.display = "flex";
+  });
+
+  closeBtn.addEventListener("click", () => {
+    popupBox.style.display = "none";
+  });
+
+  // Optional: Close when clicking outside the popup
+  window.addEventListener("click", (e) => {
+    if (e.target === popupBox) {
+      popupBox.style.display = "none";
+    }
+  });
+</script>
+
+</body>
+</html>

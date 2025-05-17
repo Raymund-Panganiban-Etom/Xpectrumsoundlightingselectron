@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="material.css">
+    <title>Material</title>
+</head>
+<body>
+    <h1 class="ftext">Material Include & Set date, time, and Place</h1>
+    <div class="sonframe">
+  <div class="row header">
+    <div class="cell, bolde">Pack</div>
+    <div class="cell">Basic <input class="c" type= "checkbox"></div>
+    <div class="cell">Full <input class="c" type= "checkbox"></div>
+  </div>
+  <div class="row">
+    <div class="cell, bolde">Downpayment</div>
+    <div class="cell">₱ 2500</div>
+    <div class="cell">₱ 5000</div>
+  </div>
+  <div class="row">
+    <div class="cell, bolde">Description</div>
+    <div class="cell">
+        <div class="fs">
+      <div>Php. 6,000.00 (exclusive of taxes) </div>
+      <div>4hrs event</div>
+      <div>No transport charge</div>
+      <div>Pax: 100pax</div>
+      <div>MIXER / PROCESSOR</div>
+      <div>1 pc - Soundcraft signature 12 Analog mixer</div>
+      <div>1 pc - Laptop for audio playback</div>
+      <div >SPEAKER</div>
+      <div >2 pcs - Alto TS 315a house speaker</div>
+      <div >MIC</div>
+      <div>2pcs - Wireless mic 
+        </div>
+</div>
+<div class="fs">
+      <div>1pc  mic stand</div>
+      <div>1 set -  Pearl drumset (Zildjan cymbals)</div>
+      <div>1pc -Marshall guitar amp</div>
+      <div>1 Lyrics stand</div>
+      <div>LIGHTS</div>
+      <div>4pcs 3x54 par led frontal lights with stand</div>
+      <div>4pcs 60watts slim par led lights for backdrop</div>
+      <div>1 dmx control </div>
+      <div>Mic and extension wires</div>
+      <div>1 Audio tech</div>
+      <div>1 light tech</div>
+      <div>Thanks, More blessings.</div>
+      <div>"Strictly no musical instruments to be connected"</div>
+      <div>Add ons if needed:</div>
+      <div>Wired mic- 100.00 per pc</div>
+      <div>Smoke machine: 500</div>
+      <div>Projector with screen - 1,500.00</div>
+      <div>Powered sub 1pair- 2,000.00</div>
+      <div>Beam 1pair- 1,000.00</div>
+      </div>
+</div>
+      <div class="cell">
+        <div class="fs">
+         <div>Indoor/outdoor events, Full band set up</div>
+          <div>Php. 14,000.00 (exclusive of taxes)</div>
+          <div>Transpo included</div>
+          <div>5hrs event</div>
+          <div>500 pax </div>
+          <div>MIXER / PROCESSOR</div>
+          <div>1 pc - 16 digital channel mixer  
+               DL1608</div>
+          <div>1 pc. - Laptop for audio playback</div>
+          <div>SPEAKER</div>
+          <div>2 pcs - Kevler SRX 818sa Sub </div>
+          <div>4 pcs - FBT xpro112a speaker house Speaker</div>
+          <div>2 pcs - TS315 alto monitor speaker</div>
+          <div>MIC</div>
+          <div>2pcs - Wired vocal mic</div>
+          <div>4pcs -Wireless mic 
+</div>
+</div>
+<div class="fs">
+          <div>4pcs mic stand</div>
+          <div>LIGHTS</div>
+          <div>12pcs par led lights with stand</div>
+          <div>2pcs beam4 moving head</div>
+          <div>2pcs dmx control </div>
+          <div>1pc Horizontal smoke machine 900watts</div>
+          <div>RHYTHM SECTION:</div>
+          <div>1 set -  Pearl drumset (Zildjan cymbals)</div>
+          <div>4pcs - Drums mic</div>
+          <div>1pc -Marshall guitar amp</div>
+          <div>1pc - Peavy Bandit 112 guitar amp</div>
+          <div>1pc - KB4 Keyboard amp</div>
+          <div>1pc HA500 Hartke bass head amp</div>
+          <div> Trace Elliot Cab single15 300wts</div>
+          <div>3pcs - DI box</div>
+          <div>1 Audio tech</div>
+          <div>1 light tech </div>
+          <div>3 crews</div>
+          <div>Thanks, More blessings</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+    <div class="daughterframe">
+      <label for="date" class="dt">Select Date</label><input class="tf" type="date" id="date">
+      <label for="time" class="dt1">Time</label><input type="time" class="tim" id="time"></br>
+      <label for="place" class="pe">Place</label><input type="text" class="pl" id="place">
+      <label for="n" class="no">Contact #</label><input type="number" class="num" id="n"></br>
+      <!-- btn-pop-up -->
+      <button id="openBtn" class="btn-next">Next</button>
+      <div id="popupBox" class="popup">
+  <div class="popup-content">
+    <span id="closeBtn">&times;</span>
+    <h2> Downpayment</h2>
+    <p>G Cash</p>
+    <div class="con">
+  <img class="qrp" src="picandvid/qr code.png" alt=""><span ><img  class="pi" src="picandvid/exg.png" alt="">
+  <p class="p" >Scan Me</p><span><p class="p1">Example screenshot as proof</p></span></span><label class="ph" for="proof">Upload Proof<input class="photo" type="image"></label></span>
+</div>
+  </div>
+</div>
+
+<script>
+  const openBtn = document.getElementById("openBtn");
+  const closeBtn = document.getElementById("closeBtn");
+  const popupBox = document.getElementById("popupBox");
+
+  openBtn.addEventListener("click", () => {
+    popupBox.style.display = "flex";
+  });
+
+  closeBtn.addEventListener("click", () => {
+    popupBox.style.display = "none";
+  });
+
+  // Optional: Close when clicking outside the popup
+  window.addEventListener("click", (e) => {
+    if (e.target === popupBox) {
+      popupBox.style.display = "none";
+    }
+  });
+</script>
+<!-- btn-popo-up end -->
+      <span><button class="btn-back" ><a href="Event.html" class="tb" >Back</a></button></span>
+    </div>
+</body>
+</html>
+
