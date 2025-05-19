@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+
+*{
+  margin: 0;
+}
+
+body{
+  background-color: gray;
+height: 2500px;
+    width: 5000px;
+     display: flex;
+      justify-content: center;  /* center horizontally */
+      align-items: center; 
+}
+/* father frame-start */
+.f{
+  height: 2000px;
+  width: 4000px;
+  background-color: white;
+ border-radius: 50px;
+      margin-left: 420px;
+}
+/* father frame end */
+/* text start */
+.text{
+color: black;
+  font-size: 110px;
+   font-family: "Open Sans";
+ margin-left: 300px;
+ margin-top: 100px;
+}  
+.text1{
+  margin-top: 120px;
+   
+}
+.r{
+  font-size: 70px;
+  margin-left: 190px;
+}
+/* text-end */
+
+/* btn start */
+
+.fle{
+      display: flex;
+      justify-content: flex-end;  /* center horizontally */
+      align-items: flex-end; 
+    
+}
+
+.pro{
+  height: 200px;
+  width: 500px;
+   font-family: "Open Sans";
+   background-color: white;
+   color: gray;
+   border-radius: 70px;
+   border: 10px solid gray;
+     font-size: 80px;
+     margin-right: 500px;
+     margin-top: -100px;
+
+}
+.pro:hover{
+color: white;
+background-color: gray;
+animation: ease-in-out;
+ transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Fle1{
+        height: 200px;
+  width: 500px;
+  font-size: 80px;
+  cursor: pointer;
+  color: gray;
+  background-color: white;
+  margin-top: 120px;
+  margin-right: 100px;
+  border: 10px solid gray;
+  border-radius: 70px;
+  font-family: "Open Sans";
+
+}
+.Fle1:hover{
+  background-color: gray;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: ease-in-out;
+    color: white;
+}
+.pro1{
+color: gray;
+  text-decoration: none;
+}
+
+
+.pro1:hover{
+color: white;
+}
+
+
+/* btn-end */
